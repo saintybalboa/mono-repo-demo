@@ -1,1 +1,1 @@
-# mono-repo-demo
+# Mono-Repo demo
