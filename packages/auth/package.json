@@ -1,5 +1,5 @@
 {
-  "name": "@mono-repo-demo/auth",
+  "name": "@saintybalboa/auth",
   "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Marty-Scott Sainty <marty-scott.sainty@bbc.co.uk>",
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/saintybalboa/mono-repo-demo/issues"
   },
-  "gitHead": "4206b8e9ae834bc76b78b018cf57a9c27de2df58"
+  "gitHead": "192d372ebe974bb865247fbef940f07e9d97543d"
 }
