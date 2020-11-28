@@ -1,0 +1,26 @@
+{
+  "name": "user",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Marty-Scott Sainty <marty-scott.sainty@bbc.co.uk>",
+  "homepage": "https://github.com/saintybalboa/mono-repo-demo#readme",
+  "license": "ISC",
+  "main": "lib/user.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saintybalboa/mono-repo-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/saintybalboa/mono-repo-demo/issues"
+  }
+}
