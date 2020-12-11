@@ -1,8 +1,8 @@
 {
   "name": "@saintybalboa/auth",
-  "version": "0.0.3",
-  "description": "> TODO: description",
-  "author": "Marty-Scott Sainty <marty-scott.sainty@bbc.co.uk>",
+  "version": "0.0.1",
+  "description": "> A library to manage user authentication against AWS Cognito.",
+  "author": "Marty-Scott Sainty <sainty11cardiff@hotmail.co.uk>",
   "homepage": "https://github.com/saintybalboa/mono-repo-demo#readme",
   "license": "ISC",
   "main": "lib/auth.js",
