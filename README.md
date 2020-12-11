@@ -77,15 +77,9 @@ lerna version [major | minor | patch | premajor | preminor | prepatch | prerelea
 Lerna provides to methods of publishing packages to the Github package registry:
 - `from-git`: Identifies packages tagged by lerna version and publishes them to npm.
 - `from-package`: The list of packages to publish is determined by inspecting each `package.json` and determining if any package version is not present in the registry. Any versions not present in the registry will be published.
-<<<<<<< HEAD
 
 It is not possible to publish individual packages, however Lerna will only publish packages that have changed.
 
-=======
-
-It is not possible to publish individual packages, however Lerna will only publish packages that have changed.
-
->>>>>>> 612843ea42ffa758c60872298036f21a641ea6e2
 Publish packages:
 ```bash
 lerna publish from-package
@@ -99,7 +93,6 @@ Clean packages:
 ```bash
 lerna clean
 ```
-<<<<<<< HEAD
 
 ## Running scripts
 
@@ -118,8 +111,6 @@ Lerna provides a way of building packages:
 ```bash
 lerna run test
 ```
-=======
->>>>>>> 612843ea42ffa758c60872298036f21a641ea6e2
 
 ## Resources
 
