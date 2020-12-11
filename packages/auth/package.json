@@ -1,27 +1,40 @@
 {
   "name": "@saintybalboa/auth",
-  "version": "0.0.3",
-  "description": "> TODO: description",
-  "author": "Marty-Scott Sainty <marty-scott.sainty@bbc.co.uk>",
+  "version": "0.0.1",
+  "description": "> A library to manage user authentication against AWS Cognito.",
+  "author": "Marty-Scott Sainty <sainty11cardiff@hotmail.co.uk>",
   "homepage": "https://github.com/saintybalboa/mono-repo-demo#readme",
   "license": "ISC",
-  "main": "lib/auth.js",
+  "main": "dist/src/Auth.js",
+  "types": "dist/src/Auth.d.ts",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "dist": "dist",
+    "test": "test"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saintybalboa/mono-repo-demo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc --incremental",
+    "test": "npm run test:lint && npm run test:type-check && npm run test:coverage",
+    "test:type-check": "tsc",
+    "test:unit": "jest --colors",
+    "test:coverage": "jest --coverage",
+    "test:lint": "npm run test:prettier && eslint '**/*.ts' --fix",
+    "test:prettier": "prettier --write '**/*.ts'"
   },
   "bugs": {
     "url": "https://github.com/saintybalboa/mono-repo-demo/issues"
+  },
+  "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "aws-sdk": "^2.803.0"
+  },
+  "devDependencies": {
   },
   "gitHead": "192d372ebe974bb865247fbef940f07e9d97543d"
 }
