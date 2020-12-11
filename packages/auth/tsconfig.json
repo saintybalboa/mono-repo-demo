@@ -1,11 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-<<<<<<< HEAD
-    "outDir": "./dist/",
-=======
     "outDir": "./dist/"
->>>>>>> 612843ea42ffa758c60872298036f21a641ea6e2
   },
   "include": [
     "./src/**/*",
