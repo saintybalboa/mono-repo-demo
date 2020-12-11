@@ -1,6 +1,6 @@
 {
   "name": "@saintybalboa/auth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> A library to manage user authentication against AWS Cognito.",
   "author": "Marty-Scott Sainty <sainty11cardiff@hotmail.co.uk>",
   "homepage": "https://github.com/saintybalboa/mono-repo-demo#readme",
