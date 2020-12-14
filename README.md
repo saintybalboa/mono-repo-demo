@@ -23,13 +23,9 @@ Configure Lerna to use the Github package registry.
 }
 ```
 
-Login to NPM:
+Set the following environment variable to the Github Personal Access Token to authenticate against the Github package registry:
 ```bash
-npm login --scope=@github-username-or-org --registry=https://npm.pkg.github.com
-
-> Username: GITHUB_USERNAME
-> Password: GITHUB_PERSONAL_ACCESS_TOKEN
-> Email: GITHUB_EMAIL_ADDRESS
+export NPM_AUTH_TOKEN=XXXX
 ```
 
 Install lerna globally:
